@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+</head>
+<body>
+    <h2>What is the capital of France?</h2>
+    <button onclick="checkAnswer('Paris')">Paris</button>
+    <button onclick="checkAnswer('London')">London</button>
+    <script>
+        function checkAnswer(answer) {
+            if (answer === "Paris") {
+                alert("Correct!");
+            } else {
+                alert("Wrong!");
+            }
+        }
+    </script>
+</body>
+</html>
